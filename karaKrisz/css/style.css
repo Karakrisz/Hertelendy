@@ -1,0 +1,65 @@
+/******************** header start **********************/
+
+header a.logo img {
+    max-height: 90px !important;
+    object-fit: cover;
+    max-width: 100% !important;
+}
+
+.navbar-collapse--d-none {
+    display: none;
+}
+
+.navbar-nav.ml-auto {
+    display: none;
+}
+
+.open_search {
+    display: none;
+}
+
+/******************** slider start **********************/
+
+.slider-content__img-box {
+    width: 600px;
+    margin: auto;
+    position: absolute;
+    bottom: 155px;
+    z-index: 10;
+    right: 290px;
+}
+
+/******************** services start **********************/
+
+.text.feature-txt {
+    height: 250px;
+}
+
+/******************** media queries start **********************/
+
+@media screen and (max-width: 991px) {
+    .slider-content__img-box {
+        right: 60px;
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .drk-blu {
+        font-size: 30px !important;
+    }
+
+    .light-blu {
+        font-size: 28px !important;
+    }
+
+    .slider-content__img-box {
+        right: 11px;
+        width: 255px;
+    }
+
+    .text.feature-txt {
+        height: 100%;
+    }
+}
